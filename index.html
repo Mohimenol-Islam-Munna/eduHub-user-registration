@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head lang="en-US">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register</title>
+
+	<!-- fontawesome -->
+	<link rel="stylesheet" type="text/css" href="fontawesome-free-5.13.0-web/css/all.min.css">
+
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1 style="text-align: center;">form</h1>
+	<div class="regi-form">
+		<h2 style="text-align: center;">Profile informations</h2>
+		<!-- form -->
+		<form>
+			<div class="form-control">
+				<label>First Name</label><span class="required"> * </span><br>
+				<input type="text" class=" bg-name bgc" name="first-name" required="required"><br><br>
+			</div>
+
+			<div class="form-control">
+				<label>Last Name</label><span class="required"> * </span><br>
+			   <input type="text" name="last-name" required="required" class=" bg-name"><br><br>
+			</div>
+				
+			<div class="form-control">
+				<label>Phone Number</label><br>
+				<input type="number" name="phone" class=" bg-phone"><br><br>
+		    </div>
+			
+			<div class="form-control">
+				<label>Contact Email</label><span class="required"> * </span><br>
+				<input type="email" name="email" required="required" class=" bg-email"><br><br>
+			</div>
+
+			<div class="form-control">
+				<label>Birthday</label><span class="required"> * </span><br>
+				<input type="date" name="birthday" required="required" class=" bg-birthday"><br><br>
+			</div>
+
+			<div class="form-control">
+				<label>Present Address line 1</label><span class="required"> * </span><br>
+				<input type="text" name="address1" required="required" class=" bg-address"><br><br>
+			</div>
+
+			<div class="form-control">
+				<label>Parmanent Address line 2</label><span class="required"> * </span><br>
+				<input type="text" name="address1" required="required" class=" bg-address"><br><br>
+			</div>
+
+			<div class="form-control">
+				<div class="country">
+					<label>Country</label><br>
+					<select class=" bg-country">
+						<option>Select</option>
+						<option>Bangladesh</option>
+						<option>India</option>
+						<option>Srilanka</option>
+						<option>Nepal</option>
+					</select>
+				</div>
+				<div class="zip-code">
+					<label>Zip Code</label><br>
+					<input type="number" name="zip-code" class=" bg-zipcode"><br><br>
+				</div>
+			</div>
+
+			<div class="check-box">
+				<input type="checkbox" name="check-box" required="required">Terms and conditions<span class="required"> * </span><br><br>
+			</div>
+
+			<div class="text-area">
+				<label>Tell Something About you</label><br>
+				<textarea name="messege" rows="7">
+					
+				</textarea>  <br><br>
+			</div>
+
+			<div class="sub-mit">
+				<button type="submit" name="submit">Submit</button>
+			</div>
+		</form>
+	</div>
+</body>
+</html>

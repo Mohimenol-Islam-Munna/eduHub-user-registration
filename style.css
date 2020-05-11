@@ -1,0 +1,182 @@
+/*body{
+	background-color: salmon;
+}*/
+/*Registration form*/
+.regi-form{
+	
+	width: 440px;
+	margin: auto;
+	font-family: serif;
+	padding: 7px 0px;
+	background-color: #F5F8FA;
+	border: 3px solid #4CBEA6;
+	border-radius: 5px;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+/*All input*/
+.form-control{
+	
+	width: 100%;
+	margin-left: 72.86px;	
+}
+
+.form-control input{
+	width: 70%;
+	height: 40px;
+	border: 2px solid #4CBEA6;
+	box-sizing: border-box;
+	border-radius: 7px;
+	margin-top: 5px;
+	padding: 0px 32px;
+}
+
+
+/*country and zip code*/
+.country{
+	
+	float: left;
+	margin-right: 8px;
+	
+	
+}
+
+.zip-code{
+
+	float: left;
+}
+
+.country select{
+	width: 150PX;
+	height: 40px;
+	border: 2px solid #4CBEA6;
+	border-radius: 7px;
+	margin-top: 5px;
+	padding: 0px 32px;
+}
+
+.zip-code input{
+	width: 150PX;
+	height: 40px;
+	border: 2px solid #4CBEA6;
+	border-radius: 7px;
+	margin-top: 5px;
+	padding: 0px 32px;
+}
+
+.form-control input:focus{
+	outline: none;
+	border: 3px solid #4CBEA6;
+	border-radius: 5px;
+}
+.form-control select:focus{
+	outline: none;
+	border: 3px solid #4CBEA6;
+	border-radius: 5px;
+}
+
+/*check box*/
+.check-box{
+
+	width: 70%;
+	float: left;
+	margin-left: 72.86px;
+
+}
+.text-area{
+	
+	width: 303px;
+	float: left;
+	margin-left: 72.86px;	
+}
+.text-area textarea{
+	width: 100%;
+	margin-top: 5px;
+	border: 2px solid #4CBEA6;
+	border-radius: 5px;
+	
+}
+.text-area textarea:hover{
+	outline: none;
+	border: 3px solid #4CBEA6;
+	border-radius: 5px;
+}
+
+.sub-mit button{
+	width: 150px;
+	height: 35px;
+	line-height: 100%;
+	margin-left: 152px;
+	font-size: 24px;
+	border: 2px solid #4CBEA6;
+	background-color: #4CBEA6;
+	border-radius: 7px;
+	margin-bottom: 5px;
+}
+.sub-mit button:hover{
+
+	border: 2px solid #35393B;
+	font-size: 26px;
+}
+.sub-mit button:focus{
+
+	outline: none;
+}
+
+/*Required field*/
+.required{
+	color: red;
+	/*font-size: 20px;*/
+}
+
+/*background icon*/
+.bg-name{
+	
+	background-image: url('icons/user-shape.svg');
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 25px 35px;
+}
+.bg-phone{
+	
+	background-image: url('icons/call.svg');
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 25px 35px;
+}
+.bg-email{
+	
+	background-image: url('icons/at.svg');
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 25px 35px;
+}
+.bg-birthday{
+	
+	background-image: url('icons/calendar.svg');
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 25px 35px;
+}
+.bg-address{
+	
+	background-image: url('icons/address (1).svg');
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 25px 35px;
+}
+.bg-country{
+	
+	background-image: url('icons/flag (1).svg');
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 25px 35px;
+}
+.bg-zipcode{
+	
+	background-image: url('icons/communication.svg');
+	background-position: left top;
+	background-repeat: no-repeat;
+	background-size: 25px 35px;
+}
